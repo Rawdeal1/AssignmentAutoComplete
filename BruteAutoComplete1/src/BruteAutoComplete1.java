@@ -7,6 +7,13 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.Iterator;
 import java.util.List;
+
+/**
+ * This class will do the Autocomplete bruteforce methods
+ * 
+ * @author seankearney
+ *
+ */
 public class BruteAutoComplete1 implements AutoComplete{
 	private ArrayList<Term> words;
 	private Scanner input;
